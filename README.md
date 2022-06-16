@@ -1,2 +1,2 @@
 # progetto
-Gucci flip flop
+Gucci
