@@ -1,40 +1,45 @@
 "use strict";
 
-if (0) {
-        console.log("Yeah, yeah!");
-} else {
-        console.log("Fuck nah!");
-}
+// const hamburger = 5,
+//         fries = 0;
 
-// if (num < 49) {
-//         console.log("Fuck no!");
-// } else if (num > 100) {
-//         console.log("No!");
-// } else {
-//         console.log("Oh yeah!");
-// }
+//         if (hamburger && fries) {
+//                 console.log("Yummy, yummy!");
+//         }
 
-// (num === 50) ? console.log("Ok!") : console.log("Fuck!");
+// const hamburger = 3,
+//         fries = 1,
+//         cola = 1;
 
-const num = 6;
+//         console.log(hamburger === 3 && cola && fries);
 
-switch (num) {
-        case 1:
-                console.log("2, 3 and to the 4");
-                break;
-        case 2:
-                console.log("3 and to the 4");
-                break;
-        case 3:
-                console.log("and to the 4");
-                break;
-        case 4:
-                console.log("Snoop Doggy Do' and Dr.Dre are at the door");
-                break;
-        case 5:
-                console.log("Real Muttafukin' G!");
-                break;
-        default:
-                console.log("Biggie, Biggie, Biggie, can't you see?");
-                break;
-}
+//         console.log(1 && 0);
+//         console.log(1 && 5);
+//         console.log(null && 5);
+//         console.log(0 && "snitchie snitch");
+
+//         if (hamburger === 3 && cola === 1 && fries) {
+//                 console.log("Покушать принесли.");
+//         } else {
+//                 console.log("Oh, fuck all of you");
+//         }
+
+        const hamburger = 3,
+                fries = 3,
+                cola = 0,
+                meat = 2;
+
+
+        if (hamburger === 3 && cola === 2 || fries === 3 && meat) {
+                console.log("Все смачно откушали.");
+        } else {
+                console.log("Oh, fuck all of you");
+        }
+                
+                console.log(hamburger === 3 && cola === 2 || fries === 3 && meat);
+
+        let johnReport, alexReport, judaReport, nyggaReport = "done";
+        
+        console.log(johnReport || alexReport || judaReport || nyggaReport);      
+        
+        console.log(!0);
