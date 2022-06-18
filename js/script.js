@@ -1,21 +1,40 @@
 "use strict";
 
-const numberOfMovies = +prompt("Сколько фильмов вы уже просмотрели?", "");
+if (0) {
+        console.log("Yeah, yeah!");
+} else {
+        console.log("Fuck nah!");
+}
 
-const personalMovieDB = {
-        count: numberOfMovies,
-        movies: {},
-        actors: {},
-        genres: [],
-        privat: false
-};
+// if (num < 49) {
+//         console.log("Fuck no!");
+// } else if (num > 100) {
+//         console.log("No!");
+// } else {
+//         console.log("Oh yeah!");
+// }
 
-const a = prompt("Один из просмотренных вами ранее фильмов", ""),
-        b = +prompt("Ваша оценка этому фильму?", ""),
-        c = prompt("Один из просмотренных вами ранее фильмов", ""),
-        d = +prompt("Ваша оценка этому фильму?", "");
+// (num === 50) ? console.log("Ok!") : console.log("Fuck!");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+const num = 6;
 
-console.log(personalMovieDB);
+switch (num) {
+        case 1:
+                console.log("2, 3 and to the 4");
+                break;
+        case 2:
+                console.log("3 and to the 4");
+                break;
+        case 3:
+                console.log("and to the 4");
+                break;
+        case 4:
+                console.log("Snoop Doggy Do' and Dr.Dre are at the door");
+                break;
+        case 5:
+                console.log("Real Muttafukin' G!");
+                break;
+        default:
+                console.log("Biggie, Biggie, Biggie, can't you see?");
+                break;
+}
