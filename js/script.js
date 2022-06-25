@@ -1,10 +1,12 @@
 "use strict";
 
-let num = 20;
+let result = "";
+const size = 11;
 
-for (let i = 1; i <= 15; i++) {
-        if (i === 12) {
-            continue;    
+for (let i = 1; i < size; i++) {
+        result += "\n";
+        for (let j = 0; j < i; j++) {
+                result += "*";
         }
-        console.log(i);
-}
+        
+}console.log(result);
